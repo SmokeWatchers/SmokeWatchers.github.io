@@ -4,8 +4,8 @@
 
 $(document).ready(function()
 {
-    selection($("#myselect"));
-    selection($("#myselect2"));
+    selection($("#inputz"));
+    selection($("#inputz2"));
 
     function selection(select)
     {
@@ -15,8 +15,8 @@ $(document).ready(function()
         }
     }
 
-    myon($("#field2"), $("#myselect"), $("#display_loc"), $("#display_utc"), $("#display_swday"));
-    myon($("#field3"), $("#myselect2"), $("#display_loc2"), $("#display_utc2"), $("#display_swday2"));
+    myon($("#inputdate"), $("#inputz"), $("#display_loc"), $("#display_utc"), $("#display_swday"));
+    myon($("#inputdate2"), $("#inputz2"), $("#display_loc2"), $("#display_utc2"), $("#display_swday2"));
 
     function myon(fld, select, disp_loc, disp_utc, disp_swday)
     {
@@ -31,8 +31,8 @@ $(document).ready(function()
         });
     }
 
-    field($("#field2"), $("#myselect"), $("#display_loc"), $("#display_utc"), $("#display_swday"));
-    field($("#field3"), $("#myselect2"), $("#display_loc2"), $("#display_utc2"), $("#display_swday2"));
+    field($("#inputdate"), $("#inputz"), $("#display_loc"), $("#display_utc"), $("#display_swday"));
+    field($("#inputdate2"), $("#inputz2"), $("#display_loc2"), $("#display_utc2"), $("#display_swday2"));
 
     function field(field, select, disp_loc, disp_utc, disp_swday)
     {
